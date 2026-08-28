@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@400;500;600&family=Satisfy&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -47,12 +47,24 @@
     <main id="main">
       <section class="hero">
         <div class="wrap">
-          <img
-            class="hero-logo"
-            src="assets/logo.png"
-            alt="Cincinnati Backgammon Society logo: city skyline framed by backgammon points"
-          />
-          <p class="eyebrow">Welcome</p>
+          <div class="hero-mark">
+            <svg class="hero-script" viewBox="0 0 680 130" role="img" aria-label="Cincinnati’s new home for Backgammon!">
+              <defs>
+                <path id="hero-arc" d="M 10 114 Q 340 -8 670 114" />
+              </defs>
+              <text>
+                <textPath href="#hero-arc" startOffset="50%" text-anchor="middle">
+                  Cincinnati’s new home for Backgammon!
+                </textPath>
+              </text>
+            </svg>
+            <img
+              class="hero-logo"
+              src="assets/logo.png"
+              alt="Cincinnati Backgammon Society logo: city skyline framed by backgammon points"
+            />
+          </div>
+          <p class="eyebrow" aria-hidden="true">&nbsp;</p>
           <h1>Casual vibes, competitive spirit, unforgettable rolls.</h1>
           <p class="lede">
             The Cincinnati Backgammon Society is a home table for players who want a friendly
