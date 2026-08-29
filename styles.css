@@ -605,6 +605,46 @@ img {
   gap: 0.5rem;
 }
 
+.news-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.news-card {
+  padding: 1.05rem 1.15rem 1.15rem;
+  background: linear-gradient(180deg, rgba(244, 236, 222, 0.035), transparent 40%), var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+}
+
+.news-card h3 {
+  margin: 0.15rem 0 0.45rem;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 520;
+  line-height: 1.25;
+}
+
+.news-card h3 a {
+  color: var(--cream);
+  text-decoration: none;
+}
+
+.news-card h3 a:hover {
+  color: var(--yellow);
+}
+
+.news-card p {
+  margin: 0;
+  color: var(--cream-dim);
+}
+
+.news-sources {
+  margin: 1.2rem 0 0;
+  color: var(--cream-dim);
+  font-size: 0.88rem;
+}
+
 .site-footer {
   position: relative;
   z-index: 1;

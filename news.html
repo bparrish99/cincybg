@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Recent tournaments — Cincinnati Backgammon Society</title>
+    <title>Backgammon news — Cincinnati Backgammon Society</title>
     <meta
       name="description"
-      content="Recent Cincinnati Backgammon Society tournament results."
+      content="Recent backgammon news from the U.S. Backgammon Federation and The Gammon Press."
     />
     <meta name="theme-color" content="#164e4a" />
     <link rel="icon" type="image/png" href="assets/favicon.png" />
@@ -33,8 +33,8 @@
         <nav class="nav-links" aria-label="Primary">
           <a href="index.html">Home</a>
           <a href="schedule.html">Schedule</a>
-          <a href="results.html" aria-current="page"><span class="nav-full">Recent tournaments</span><span class="nav-short">Results</span></a>
-          <a href="news.html">News</a>
+          <a href="results.html"><span class="nav-full">Recent tournaments</span><span class="nav-short">Results</span></a>
+          <a href="news.html" aria-current="page">News</a>
         </nav>
       </div>
     </header>
@@ -42,62 +42,26 @@
     <main id="main">
       <section class="page-hero">
         <div class="wrap">
-          <p class="eyebrow">Recent tournaments</p>
-          <h1>Who survived the cube.</h1>
+          <p class="eyebrow">Backgammon news</p>
+          <h1>The latest rolls.</h1>
           <p>
-            August 24 is on the board. Next up is September 12 in Mason.
+            A short stack of recent stories from the U.S. Backgammon Federation and Bill
+            Robertie’s Gammon Press.
           </p>
         </div>
       </section>
 
       <section class="section">
-        <div class="wrap results-list">
-          <article class="result-card">
-            <header>
-              <h3>August 2026</h3>
-              <p class="kicker">August 24</p>
-            </header>
-            <table class="standings">
-              <thead>
-                <tr>
-                  <th>Place</th>
-                  <th>Player</th>
-                  <th>Wins</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Skip Y</td>
-                  <td>4</td>
-                </tr>
-                <tr>
-                  <td>T-2</td>
-                  <td>Tom W</td>
-                  <td>2</td>
-                </tr>
-                <tr>
-                  <td>T-2</td>
-                  <td>Ben P</td>
-                  <td>2</td>
-                </tr>
-                <tr>
-                  <td>T-2</td>
-                  <td>Jeff B</td>
-                  <td>2</td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>Heidi S</td>
-                  <td>0</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="pdf-links">
-              <a class="btn btn-primary" href="results/August%202026%20Standings.pdf">Standings PDF</a>
-              <a class="btn btn-ghost" href="results/August%202026%20Matchups.pdf">Matchups PDF</a>
-            </div>
-          </article>
+        <div class="wrap">
+          <div id="news-list" class="news-list" aria-live="polite">
+            <p class="empty">Loading the latest rolls…</p>
+          </div>
+          <p class="news-sources">
+            Sources:
+            <a href="https://usbgf.org/" target="_blank" rel="noopener noreferrer">USBGF</a>
+            and
+            <a href="https://thegammonpress.com/" target="_blank" rel="noopener noreferrer">The Gammon Press</a>.
+          </p>
         </div>
       </section>
     </main>
@@ -121,5 +85,6 @@
       </div>
     </footer>
     <script src="app.js"></script>
+    <script src="news.js"></script>
   </body>
 </html>
