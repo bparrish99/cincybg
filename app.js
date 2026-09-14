@@ -6,7 +6,7 @@
 
   if (!countdown) return;
 
-  const start = new Date("2026-09-12T11:30:00-04:00");
+  const start = new Date("2026-10-10T11:30:00-04:00");
   const nodes = {
     days: countdown.querySelector("[data-days]"),
     hours: countdown.querySelector("[data-hours]"),
