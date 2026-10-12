@@ -613,6 +613,16 @@ img {
   font-weight: 520;
 }
 
+.result-note {
+  margin: -0.2rem 0 0.9rem;
+  color: var(--yellow);
+  font-family: var(--serif);
+  font-size: 0.98rem;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
 .empty {
   color: var(--cream-dim);
 }
